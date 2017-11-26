@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:gs="http://www.gensee.com/ec" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content = "IE=edge,chrome=1">
+<link rel="stylesheet" href="css/iconfont.css" />
+<link rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<title>查询量新增</title>
+</head>
+<body>
+<div class="header clearfix" id="header">
+	<div class="userInfo">
+		<a class="msgCenter" href="#"><i class="iconfont icon-xiaoxi"></i>消息中心</a>
+		<a class="uCenter" href="#"><i class="iconfont icon-yonghu"></i>个人中心</a>
+	</div>
+	<h3 class="title"><a href="#">联通大数据管理平台</a></h3>
+</div>
+<div id="contenter" class="clearfix">
+	<div class="nav_left">
+		<ul class="left_menu" id="leftMenu">
+			<li class="item index">
+				<p><a href="shouye.html"><i class="iconfont icon-ViewGallery"></i>首页</a></p>
+			</li>
+			<li class="item">
+				<p><i class="iconfont icon-search"></i>信息查询</p>
+				<ul class="childrenMenu">
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="2-dingdan-add.html">新增订单</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="2-dingdan-list.html">订单列表</a></li>
+				</ul>
+			</li>
+			<li class="item">
+				<p><i class="iconfont icon-datadicshujuzidian"></i>自服务</p>
+				<ul class="childrenMenu">
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">接口在线工具</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">查询使用统计</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">接口账户配置</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">接口文档</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">消息中心</a></li>
+				</ul>
+			</li>
+			<li class="item">
+				<p><i class="iconfont icon-monitor"></i>业务监控</p>
+			</li>
+			<li class="item z_cur">
+				<p><i class="iconfont icon-houtaiguanli1"></i>后台管理</p>
+				<ul class="childrenMenu z_children">
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">客户管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">机构管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">角色管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">资源管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">数据源管理</a></li>
+					<li class="childItem z_child_cur"><i class="iconfont icon-quan"></i><a href="#">查询量管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">外部接口管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">用户管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">查询量池管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">风险监控资源管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">计费规则管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">预警配置</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!--navLeft end-->
+	<div class="mainContent_right">
+		<div class="right_wrap m_houtai_query_add">
+			<div class="m_section">
+				<div class="section_top">
+					<h3 class="title">查询量新增</h3>
+				</div>
+				<ul class="add_wrap clearfix">
+					<li class="iptWrap clearfix">
+						<label class="select_name">用户：</label>
+						<div class="select_box clearfix">
+							<span class="seleced_option">请选择</span>
+							<i class="iconfont icon-jiantou3"></i>
+							<ul class="results_wrap">
+								<li class="options">请选择1</li>
+								<li class="options">请选择2</li>
+								<li class="options">请选择3</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<div class="m-queryChoseWords"><h3 class="title">查询选择项：</h3></div>
+				<div class="query_selectBox clearfix">
+					<ul class="leftSelect_box f_floatLeft">
+						<li class="choseItem text-overflow  z_chosed">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+					</ul>
+					<div class="btn_arrow f_floatLeft">
+						<button class="iconfont icon-next j-query-add"></button>
+						<button class="iconfont icon-jiantou2 j-query-addAll"></button>
+						<button class="iconfont icon-arrow-right-copy j-query-move"></button>
+						<button class="iconfont icon-icon-copy-copy1 j-query-moveAll"></button>
+					</div>
+					<ul class="rightSelect_box f_floatLeft">
+						<li class="choseItem text-overflow ">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+						<li class="choseItem text-overflow">查询选择项</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="fixedBtn">
+				<button class="btn_cancel" type="button" >取消</button>
+				<button class="btn_save" type="button">保存</button>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<script type="text/javascript">
+	
+	$(function(){
+		
+		$(".leftSelect_box .choseItem,.rightSelect_box .choseItem").die("click").live("click",function(){
+			$(this).toggleClass("z_chosed");
+		});
+		// add
+		$(".j-query-add").click(function(){
+			var leftChoseArr=[];
+			$(".leftSelect_box .choseItem ").each(function(){
+				if($(this).hasClass("z_chosed")){
+						leftChoseArr.push($(this).html());
+						$(this).remove();//删除
+				}
+			});
+			if(leftChoseArr.length){
+				// 右侧添加
+				var rightItemsArr=[];
+				$(".rightSelect_box .choseItem").each(function(){
+						rightItemsArr.push($(this).html());
+				});
+				//合并
+				$.merge(rightItemsArr,leftChoseArr);
+				//显示
+				var _rightHtml='';
+				for(var i=0;i<rightItemsArr.length;i++){
+					_rightHtml+='<li class="choseItem text-overflow">'+rightItemsArr[i]+'</li>'
+				}
+				$(".rightSelect_box").html(" ").html(_rightHtml);
+			}
+		});
+		// addAll
+		$(".j-query-addAll").click(function(){
+				var leftChoseArr=[];
+				$(".leftSelect_box .choseItem ").each(function(){
+						leftChoseArr.push($(this).html());
+						$(this).remove();//删除
+				});
+				if(leftChoseArr.length){
+					// 右侧添加
+					var rightItemsArr=[];
+					$(".rightSelect_box .choseItem").each(function(){
+							rightItemsArr.push($(this).html());
+					});
+					//合并
+					$.merge(rightItemsArr,leftChoseArr);
+					//显示
+					var _rightHtml='';
+					for(var i=0;i<rightItemsArr.length;i++){
+						_rightHtml+='<li class="choseItem text-overflow">'+rightItemsArr[i]+'</li>'
+					}
+					$(".rightSelect_box").html("").html(_rightHtml);
+				}
+		})
+
+		// remove
+		$(".j-query-move").click(function(){
+			var rightChoseArr=[];
+			$(".rightSelect_box .choseItem ").each(function(){
+				if($(this).hasClass("z_chosed")){
+						rightChoseArr.push($(this).html());
+						$(this).remove();//删除
+				}
+			});
+			if(rightChoseArr.length){
+					var leftItemsArr=[];
+					$(".leftSelect_box .choseItem").each(function(){
+							leftItemsArr.push($(this).html());
+					});
+				//合并
+				$.merge(leftItemsArr,rightChoseArr);
+				//显示
+				var _leftHtml='';
+				for(var i=0;i<leftItemsArr.length;i++){
+					_leftHtml+='<li class="choseItem text-overflow">'+leftItemsArr[i]+'</li>'
+				}
+				$(".leftSelect_box").html("").html(_leftHtml);
+			}
+		})
+
+		$(".j-query-moveAll").click(function(){
+			var rightChoseArr=[];
+			$(".rightSelect_box .choseItem ").each(function(){
+						rightChoseArr.push($(this).html());
+						$(this).remove();//删除
+			});
+			if(rightChoseArr.length){
+					var leftItemsArr=[];
+					$(".leftSelect_box .choseItem").each(function(){
+							leftItemsArr.push($(this).html());
+					});
+				//合并
+				$.merge(leftItemsArr,rightChoseArr);
+				//显示
+				var _leftHtml='';
+				for(var i=0;i<leftItemsArr.length;i++){
+					_leftHtml+='<li class="choseItem text-overflow">'+leftItemsArr[i]+'</li>'
+				}
+				$(".leftSelect_box").html("").html(_leftHtml);
+			}
+		})
+
+	});
+</script>
+</body>
+</html>

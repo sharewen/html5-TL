@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:gs="http://www.gensee.com/ec" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content = "IE=edge,chrome=1">
+<link rel="stylesheet" href="css/iconfont.css" />
+<link rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<title>资源管理</title>
+</head>
+<body>
+<div class="header clearfix" id="header">
+	<div class="userInfo">
+		<a class="msgCenter" href="#"><i class="iconfont icon-xiaoxi"></i>消息中心</a>
+		<a class="uCenter" href="#"><i class="iconfont icon-yonghu"></i>个人中心</a>
+	</div>
+	<h3 class="title"><a href="#">联通大数据管理平台</a></h3>
+</div>
+<div id="contenter" class="clearfix">
+	<div class="nav_left">
+		<ul class="left_menu" id="leftMenu">
+			<li class="item index">
+				<p><a href="shouye.html"><i class="iconfont icon-ViewGallery"></i>首页</a></p>
+			</li>
+			<li class="item">
+				<p><i class="iconfont icon-search"></i>信息查询</p>
+				<ul class="childrenMenu">
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="2-dingdan-add.html">新增订单</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="2-dingdan-list.html">订单列表</a></li>
+				</ul>
+			</li>
+			<li class="item">
+				<p><i class="iconfont icon-datadicshujuzidian"></i>自服务</p>
+				<ul class="childrenMenu">
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">接口在线工具</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">查询使用统计</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">接口账户配置</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">接口文档</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">消息中心</a></li>
+				</ul>
+			</li>
+			<li class="item">
+				<p><i class="iconfont icon-monitor"></i>业务监控</p>
+			</li>
+			<li class="item z_cur">
+				<p><i class="iconfont icon-houtaiguanli1"></i>后台管理</p>
+				<ul class="childrenMenu z_children">
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">客户管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">机构管理</a></li>
+					<li class="childItem z_child_cur"><i class="iconfont icon-quan"></i><a href="#">角色管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">资源管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">数据源管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">查询量管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">外部接口管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">用户管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">查询量池管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">风险监控资源管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">计费规则管理</a></li>
+					<li class="childItem"><i class="iconfont icon-quan"></i><a href="#">预警配置</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!--navLeft end-->
+	<div class="mainContent_right">
+		<div class="right_wrap m_houtai_resource_manage">
+			<div class="search_wrap">
+					<div class="m_search">
+						<input type="text" placeholder="请输入搜索内容">
+						<i class="iconfont icon-sousu"></i>
+					</div>
+			</div>
+			<div class="m_section">
+					<div class="section_top clearfix">
+						<div class="btnList f_floatRight">
+							<button class="btn_button btn_green" type="button">新增</button>
+							<button class="btn_button btn_green" type="button">删除</button>
+							<button class="btn_button btn_blue iconfont icon-shuaxin1"  type="button"></button>
+						</div>
+						<h3 class="title">资源列表</h3>
+					</div>
+					<div class="table_wrap">
+						<table class="m-table-list">
+							<thead>
+								<tr>
+									<td class="first" style="width:250px;">
+											<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName"/>
+													<i></i>
+													<span>资源名称</span>
+											</label>
+									</td>
+									<td >资源分类</td>
+									<td>资源类别</td>
+									<td>资源地址</td>
+									<td style="width:150px;">状态</td>
+									<td style="width:150px;">操作</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="odd">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr>
+								<tr class="even">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr><tr class="odd">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr>
+								<tr class="even">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr><tr class="odd">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr>
+								<tr class="even">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr><tr class="odd">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr>
+								<tr class="even">
+									<td class="first">
+										<label class="checkBox_lab">
+													<input type="checkbox" name="resourceName" unchecked />
+													<i></i>
+													<span>身份认证服务</span>
+										</label>
+									</td>
+									<td>&nbsp;</td>
+									<td>menu</td>
+									<td>/web/query/identityCert</td>
+									<td>正常</td>
+									<td>
+										<a href="#"><i class="iconfont icon-xiugai"></i></a>
+										<a href="#"><i class="iconfont icon-houtaishanchu"></i></a>
+									</td>
+								</tr>
+								
+								
+							</tbody>
+						</table>
+					</div>
+					<!--分页-->
+					<ul class="page_list clearfix">
+						<li class="page prev"><a href="#">&lt;&lt;</a></li>
+						<li class="page "><a href="#">1</a></li>
+						<li class="page"><a href="#">2</a></li>
+						<li class="page selected"><a href="#">3</a></li>
+						<li class="page"><a href="#">4</a></li>
+						<li class="page"><a href="#">5</a></li>
+						<li class="page"><a href="#">6</a></li>
+						<li class="page last"><a href="#">&gt;&gt;</a></li>
+					</ul>
+
+			</div>
+
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
